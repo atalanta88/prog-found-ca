@@ -1,0 +1,83 @@
+// question 1
+
+var pants = "skinnyJeans";
+console.log(pants);
+
+// question 2
+
+var personObject = {
+  name: "Johnny",
+  age: 31
+};
+console.log(personObject);
+
+// question 3
+
+var outOfStock = true;
+if (outOfStock === true) {
+  console.log("out of stock");
+} else {
+  console.log("in stock");
+}
+
+// question 4
+
+var numbers = [1, 2, 3, 4, 5];
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+
+// question 5
+
+for (var i = 15; i <= 25; i++) {
+  console.log(i);
+}
+
+// question 6
+
+for (var i = 15; i < 21; i++) {
+  console.log(i);
+}
+
+// question 7
+
+var iceBathing = [
+  {
+    name: "Gunnar",
+    age: 34,
+    bathed: true
+  },
+  {
+    name: "Bjørnar",
+    age: 30,
+    bathed: false
+  }
+];
+
+for (var i = 0; i < iceBathing.length; i++) {
+  console.log(iceBathing[i].bathed);
+  console.log(iceBathing[i].age);
+}
+
+// question 8
+
+function whatIDontLike(thisFood) {
+  console.log("I dont like " + thisFood);
+}
+whatIDontLike("Fish Doughnuts");
+
+// question 9
+
+function person(firstName, lastName) {
+  console.log(firstName);
+}
+person("Johnny", "Boy");
+
+// question 10
+
+var sunGlasses = [];
+function sunGlassesColour(tint) {
+  sunGlasses.push(tint);
+}
+sunGlassesColour("blue");
+console.log(sunGlasses);
